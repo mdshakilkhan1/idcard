@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.minicontainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.box1{
+    width: 200px;
+}
+.subcontainer{
+    width: 550px;
+background-color: darkslateblue;
+}
+#btn{
+    width: 200px;
+    height: 50px;
+}
+.card{
+    width: 320px;
+    border-radius: 20px;
+    background-color: rgb(110, 238, 218);
+    padding: 20px;
+}
+#img{
+    width: 80px;
+    border-radius: 50%;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#sd{
+    text-align: center;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="container" >
+
+        <div>
+            <div class="subcontainer">
+
+
+                <div id="min">
+                    <div class="minicontainer">
+                        <h2>Create Your Personal Id Card</h2>
+                    </div>
+                    <div class="minicontainer">
+                        <div class="box1">  
+                            <p>Name:<input id="na" type="text"></p>
+                            <p>Class: <input id="cl" type="text"></p>
+                            <p>School: <input id="sc" type="text"></p> 
+                           <p>Mobile No: <input id="mo" type="number"></p>
+                        </div>
+                        <div class="box1">
+                            <p> Father Name:<input id="fa" type="text"></p>
+                            <p> Roll No: <input id="ro" type="number"></p>
+                            <p> Date Of Birth: <input id="da" type="date"></p> 
+                             <legend>Gender </legend>
+                            <p>Male <input type="radio" name="gender" id="male">Female<input type="radio" name="gender" id="Female">
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="minicontainer">
+                        <button onclick="addbutton()" id="btn">Submit</button>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <hr>
+                <br>
+    
+                <div class="minicontainer">
+                    <div class="card">
+
+                        <div id="head">
+                            <img id="img" src="./h.png" alt="image">
+                        </div>
+                        <div id="sd">
+                            <h2>Rajshahi Govt. City Collage</h2>
+                            <p>Ph:02588-850388, E-mail:prin2388@yahoo.com</p>
+                            <h1>ID CARD</h1>
+                        </div>
+                        <div>
+                            <p>Name : <span id="Name"></span></p>
+                            <p>Father Name :   <span id="Father"></span></p>
+                            <p>School : <span id="School"></span></p>
+                            <p>Class : <span id="Class"></span></p>
+                            <p>Roll : <span id="Roll"></span></p>
+                            <p>Mobile No : <span id="Mobile"></span></p>
+                            <p>Gender : <span id="Gen"></span></p>
+                            <p>Dath Of Birth : <span id="Date"></span></p>
+                        </div>
+                        <br>
+                        <div id="foot">
+                            <div>
+                                <p>Head Of the Dept</p>
+                            </div>
+                            <div>
+                                <p>Principal</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+     </div>
+
+
+
+
+     <script src="script.js"></script>
+
+</body>
+</html>
